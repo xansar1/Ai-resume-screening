@@ -5,7 +5,7 @@ import pandas as pd
 import json
 import random
 
-API_URL = "http://127.0.0.1:8000/parse_resume/"
+API_URL = "http://ai-resume-screening-production-2a96.up.railway.app/parse_resume/"
 
 # ================= PAGE CONFIG =================
 st.set_page_config(
