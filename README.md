@@ -25,6 +25,25 @@ This project helps recruiters and hiring teams:
 
 ---
 
+## 📸 Screenshots
+
+### 🔹 Upload + Dashboard
+<img width="100%" src="screenshots/dashboard-home.png"/>
+
+### 🔹 ATS + Candidate Overview
+<img width="100%" src="screenshots/ats-dashboard.png"/>
+
+### 🔹 Skill Analysis
+<img width="100%" src="screenshots/skill-analysis.png"/>
+
+### 🔹 Recruiter Insights
+<img width="100%" src="screenshots/recruiter-insights.png"/>
+
+### 🔹 API Swagger
+<img width="100%" src="screenshots/api-docs.png"/>
+
+---
+
 ## 🛠 Tech Stack
 - **Frontend:** Streamlit
 - **Backend:** FastAPI
