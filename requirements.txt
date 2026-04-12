@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+streamlit
+requests
+pdfplumber
+python-dotenv
+openai
+plotly
+pandas
+python-multipart
