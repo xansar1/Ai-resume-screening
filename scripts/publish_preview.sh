@@ -12,7 +12,7 @@ python3 -m py_compile app.py resume_explorer/engine.py api/main.py
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 mkdir -p "$TMP/repo"
-cp -R app.py README.md requirements.txt requirements-dev.txt .python-version .gitignore .streamlit .github resume_explorer api scripts "$TMP/repo/"
+cp -R app.py README.md requirements.txt requirements-dev.txt .python-version .gitignore .streamlit .github resume_explorer api scripts tests "$TMP/repo/"
 find "$TMP/repo" -type d -name __pycache__ -prune -exec rm -rf '{}' +
 cd "$TMP/repo"
 git init -b "$BRANCH"
